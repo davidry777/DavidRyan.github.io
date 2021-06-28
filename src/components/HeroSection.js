@@ -11,9 +11,9 @@ function HeroSection() {
                 <Button className='btns' 
                 buttonStyle='btn--outline'
                 buttonSize='btn--large'
-            >
-                View Resume
-            </Button>
+                >
+                    View Resume
+                </Button>
             </div>
         </div>
     )

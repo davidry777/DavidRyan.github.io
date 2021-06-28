@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState, useEffect} from 'react'
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
@@ -17,6 +17,10 @@ function Navbar() {
             setButton(true);
         }
     };
+
+    useEffect(() => {
+        showButton()
+    }, [])
 
     window.addEventListener('resize', showButton);
 
@@ -68,6 +72,15 @@ function Navbar() {
                                 onClick={closeMobileMenu}
                             >
                                 Contact
+                            </Link>
+                        </li>
+                        <li>
+                            <Link
+                                to='/sign-up'
+                                className='nav-links-mobile'
+                                onClick={closeMobileMenu}
+                            >
+                                View Resume
                             </Link>
                         </li>
                     </ul>

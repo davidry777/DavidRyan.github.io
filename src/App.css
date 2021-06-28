@@ -6,9 +6,10 @@
   }
   
   .home,
-  .services,
-  .products,
-  .sign-up {
+  .about,
+  .projects,
+  .contact,
+  .view_resume {
     display: flex;
     height: 90vh;
     align-items: center;
@@ -16,7 +17,7 @@
     font-size: 3rem;
   }
   
-  .services {
+  .about {
     background-image: url('/src/images/img-2.jpg');
     background-position: center;
     background-size: cover;
@@ -25,8 +26,17 @@
     font-size: 100px;
   }
   
-  .products {
+  .projects {
     background-image: url('/src/images/img-1.jpg');
+    background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+
+  .contact {
+    background-image: url('/src/images/img-4.jpg');
     background-position: center;
     background-size: fill;
     background-repeat: no-repeat;

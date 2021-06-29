@@ -18,7 +18,7 @@
   }
   
   .about {
-    background-image: url('/src/images/img-2.jpg');
+    background-image: url('/images/img-2.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -27,7 +27,7 @@
   }
   
   .projects {
-    background-image: url('/src/images/img-1.jpg');
+    background-image: url('/images/img-1.jpg');
     background-position: center;
     background-size: fill;
     background-repeat: no-repeat;
@@ -36,7 +36,7 @@
   }
 
   .contact {
-    background-image: url('/src/images/img-4.jpg');
+    background-image: url('/images/img-4.jpg');
     background-position: center;
     background-size: fill;
     background-repeat: no-repeat;

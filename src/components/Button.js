@@ -1,6 +1,6 @@
 import React from 'react';
 import './Button.css';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
 const STYLES = ['btn--primary', 'btn--outline'];
 
@@ -29,5 +29,5 @@ export const Button = ({
                     {children}
                 </button>
             </Link>
-        )
-};
+        );
+}

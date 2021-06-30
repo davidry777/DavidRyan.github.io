@@ -1,5 +1,6 @@
-import React from 'react'
-import CardItem from './CardItem'
+import React from 'react';
+import CardItem from './CardItem';
+import './Cards.css';
 
 function Cards() {
     return (
@@ -13,7 +14,7 @@ function Cards() {
                 </div>
             </div>
         </div>
-    )
+    );
 }
 
 export default Cards

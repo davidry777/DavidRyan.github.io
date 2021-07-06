@@ -14,7 +14,7 @@ function Cards() {
             <div className="cards__container">
                 <div className="cards__wrapper">
                     <ul className="cards__items">
-                    <CardItem
+                        <CardItem
                         src={img}
                         text='Explore the hidden waterfall deep inside the Amazon Jungle'
                         label='Adventure'

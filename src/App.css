@@ -9,7 +9,7 @@
   .about,
   .projects,
   .contact,
-  .view_resume {
+  .view-resume {
     display: flex;
     height: 90vh;
     align-items: center;
@@ -44,7 +44,7 @@
     font-size: 100px;
   }
   
-  .sign-up {
+  .view-resume {
     background-image: url('./images/img-8.jpg');
     background-position: center;
     background-size: cover;

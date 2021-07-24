@@ -1,9 +1,9 @@
 import React from 'react'
 import '../App.css';
 import { Button } from './Button'
-import './HeroSection.css';
+import './IntroSection.css';
 
-function HeroSection() {
+function IntroSection() {
     return (
       <div className='hero-container'>
         <h1>DAVID RYAN</h1>
@@ -29,4 +29,4 @@ function HeroSection() {
     );
   }
   
-  export default HeroSection;
+  export default IntroSection;

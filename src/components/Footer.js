@@ -10,7 +10,6 @@ function Footer() {
                     <div class='footer-logo'>
                         <Link to='/' className='social-logo'>
                         David Ryan
-                        <i class='fab fa-typo3' />
                         </Link>
                         </div>
                         <small class='website-rights'>David Ryan © 2021</small>

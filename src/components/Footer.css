@@ -125,6 +125,8 @@
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
+    font-family: "New Century Schoolbook", "TeX Gyre Schola", serif;
+    font-weight: 600;
     display: flex;
     align-items: center;
     margin-bottom: 16px;

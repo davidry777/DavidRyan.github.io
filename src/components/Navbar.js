@@ -32,7 +32,7 @@ function Navbar() {
                         to='/' 
                         className='navbar-logo'
                     >
-                        David Ryan <i className='fab fa-typo3' />
+                        David Ryan
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />

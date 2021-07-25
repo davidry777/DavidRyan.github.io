@@ -5,26 +5,20 @@ import './IntroSection.css';
 
 function IntroSection() {
     return (
-      <div className='hero-container'>
-        <h1>DAVID RYAN</h1>
+      <div className='intro-container'>
+        <h1>Hi, I'm David Ryan</h1>
         <p>Data Science Freshman @ UCR. Personal Portfolio</p>
-        <div className='hero-btns'>
-          <Button
-            className='btns'
-            buttonStyle='btn--outline'
-            buttonSize='btn--large'
-          >
-            GET STARTED
-          </Button>
+        <div className='intro-btns'>
           <Button
             className='btns'
             buttonStyle='btn--primary'
             buttonSize='btn--large'
             onClick={console.log('hey')}
           >
-            WATCH TRAILER <i className='far fa-play-circle' />
+            View Resume
           </Button>
         </div>
+        <h2 className='display-3 font-weight-bolder'> ____________________________________________________________________________</h2>
       </div>
     );
   }

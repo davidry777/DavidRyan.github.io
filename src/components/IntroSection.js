@@ -3,6 +3,8 @@ import '../App.css';
 import { Button } from './Button'
 import './IntroSection.css';
 
+
+
 function IntroSection() {
     return (
       <div className='intro-container'>
@@ -18,7 +20,8 @@ function IntroSection() {
             View Resume
           </Button>
         </div>
-        <h2 className='display-3 font-weight-bolder'> ____________________________________________________________________________</h2>
+        <hr class="rounded" />
+        <p>Python | C++ | Java | R | SQL | HTML/CSS | Javascript</p>
       </div>
     );
   }

@@ -32,12 +32,6 @@
     color: white;
     font-size: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
-}
-
-.intro-container > h2 {
-    color: white;
-    margin-left: 50px;
 }
 
 .intro-btns {
@@ -47,6 +41,16 @@
 
 .intro-btns .btn {
     margin: 6px;
+}
+
+/* Rounded border */
+.intro-container > hr.rounded {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    max-width: 750px;
+    border-top: 8px solid #fff;
+    border-radius: 5px;
 }
 
 /* .fa-play-circle {
@@ -62,7 +66,7 @@
 
 @media screen and (max-width: 768px) {
     .hero-container > h1 {
-        font-size: 50px;
+        font-size: 30px;
         margin-top: -100px;
     }
 
@@ -70,8 +74,8 @@
         font-size: 30px;
     }
 
-    .hero-container > h2 {
-        margin-left: 30px;
+    .intro-container > hr.rounded {
+        margin-right: 50px
     }
 
     .btn-mobile {

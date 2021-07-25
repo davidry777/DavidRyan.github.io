@@ -1,5 +1,4 @@
 import React from 'react'
-import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Footer.css'
 
@@ -17,14 +16,6 @@ function Footer() {
                         <small class='website-rights'>David Ryan © 2021</small>
                         <div class='social-icons'>
                             <Link
-                                class='social-icon-link facebook'
-                                to='/'
-                                target='_blank'
-                                aria-label='Facebook'
-                            >
-                                <i class='fab fa-facebook-f' />
-                            </Link>
-                            <Link
                                 class='social-icon-link instagram'
                                 to='/'
                                 target='_blank'
@@ -33,23 +24,15 @@ function Footer() {
                                 <i class='fab fa-instagram' />
                             </Link>
                             <Link
-                                class='social-icon-link youtube'
+                                class='social-icon-link github'
                                 to='/'
                                 target='_blank'
-                                aria-label='Youtube'
+                                aria-label='GitHub'
                             >
-                                <i class='fab fa-youtube' />
+                                <i class='fab fa-github' />
                             </Link>
                             <Link
-                                class='social-icon-link twitter'
-                                to='/'
-                                target='_blank'
-                                aria-label='Twitter'
-                            >
-                                <i class='fab fa-twitter' />
-                            </Link>
-                            <Link
-                                class='social-icon-link twitter'
+                                class='social-icon-link linkedin'
                                 to='/'
                                 target='_blank'
                                 aria-label='LinkedIn'

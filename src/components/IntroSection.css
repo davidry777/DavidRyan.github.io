@@ -4,7 +4,7 @@
     height: 100%;
     position: fixed;
     z-index: -1;
-} */
+} 
 
 .intro-container {
     background-color: rgb(0, 0, 34);
@@ -34,11 +34,11 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-/* .pfp-image {
+.pfp-image {
     max-width: 1000%;
     height: auto;
     margin-left: 1000px;
-} */
+}
 
 .intro-btns {
     margin-top: 20px;
@@ -49,7 +49,6 @@
     margin: 6px;
 }
 
-/* Rounded border */
 .intro-container > hr.rounded {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -59,9 +58,9 @@
     border-radius: 5px;
 }
 
-/* .fa-play-circle {
+.fa-play-circle {
     margin-left: 4px;
-} */
+}
 
 @media screen and (max-width: 960px) {
     .hero-container > h1 {
@@ -93,4 +92,4 @@
     .btn {
         width: 40%
     }
-}
+} */

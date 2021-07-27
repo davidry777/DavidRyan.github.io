@@ -1,22 +1,16 @@
 import React from 'react'
 import '../../App.css';
-import IntroSection from '../IntroSection';
+
+import { Container, Row, Col, Image } from 'react-bootstrap'
+
 import Profile_Pic from '../../images/my-icon.jpg'
 
-import { Container, Row, Col, Image } from 'react-bootstrap';
-
-function Home () {
-    return (
-        <>
-            <IntroSection />
-            <Container>
-                <Row>
-                    <Col xs={6} md={4}>
-                        <Image src={Profile_Pic} roundedCircle />
-                    </Col>
-                </Row>
-            </Container>
-        </>
-    );
+class Home extends React.Component {
+    render() {
+        return (
+            <>
+            </>
+        );
+    }
 }
 export default Home;
